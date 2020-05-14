@@ -96,6 +96,7 @@ def handle_chunk(chunk, filename, idx):
                                       acc_y,
                                       acc_z)
 
+    os.makedirs('out', exist_ok=True)
     lin_acc = convert_to_g(lin_acc)
     plt.figure()
     points = (ts, lin_acc)
