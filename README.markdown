@@ -23,4 +23,4 @@ This should output linear and angular acceleration graphs for each impact in a d
 where:
  - t is a timestamp to two decimal places
  - acc_{x,y,z} are accelerometer values in units of G 
- - gyr_{x,y,z} are gyroscope values in units of rad/s
+ - gyr_{x,y,z} are gyroscope values in units of degree/s
